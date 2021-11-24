@@ -48,7 +48,8 @@ systemctl stop nginx
 certbot certonly -d DOMAIN
 
 nano /etc/nginx/conf.d/DOMAIN.conf
-# Add and setup *DOMAIN CONFIG* here, CTRL+O, ENTER, CTRL+X
+# Add and setup *DOMAIN CONFIG* here
+ CTRL+O, ENTER, CTRL+X
 
 mkdir /var/www/DOMAIN
 
