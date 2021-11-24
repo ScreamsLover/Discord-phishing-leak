@@ -67,8 +67,8 @@ systemctl start nginx
 
 
 # *VDS CONGIG*
-# !!!! Dont forget change "!!!!!!!!!!!!!!!!!!!!!!DOMAIN" to ur domain name!
-# !!!! Dont forget change "!!!!!!!!!!!!!!!!!!!!!!IP" to ur VPS ip!
+ !!!! Dont forget change "!!!!!!!!!!!!!!!!!!!!!!DOMAIN" to ur domain name!
+ !!!! Dont forget change "!!!!!!!!!!!!!!!!!!!!!!IP" to ur VPS ip!
 
 server {
     listen 80 default;
@@ -101,7 +101,7 @@ server {
 
 
 # *DOMAIN CONFIG*
-# Dont forget change "!!!!!!!!!!!!!!!!!!!!!!DOMAIN" to ur domain name!
+ Dont forget change "!!!!!!!!!!!!!!!!!!!!!!DOMAIN" to ur domain name!
 
 server {
     listen 80;
@@ -142,7 +142,7 @@ server {
         if ($rule_0 = "21"){
                 rewrite /.* /index.php last;
         }
-#        try_files $uri $uri/ =404;
+        try_files $uri $uri/ =404;
     }
 
     location ~ \.php$ {
