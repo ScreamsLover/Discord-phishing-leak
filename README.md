@@ -1,7 +1,8 @@
 # Discord-phishing-leak
-Discord Phishing Link leaked by Certex FOR EDUCATIONAL PURPOSES ONLY
+Discord Phishing Link leaked by Certex 
+#**FOR EDUCATIONAL PURPOSES ONLY**
 
-Here a tutorial to use the installation.
+Down below you have a small tutorial 
 # PREPARING VDS #
 # USE ONLY DEBIAN 10 (Not 9 or 11)!!!
 
