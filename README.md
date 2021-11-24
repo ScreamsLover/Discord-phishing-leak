@@ -18,11 +18,11 @@ sudo apt install php8.0
 sudo apt install php8.0-{fpm,mysql,imap,ldap,xml,curl,mbstring,zip}
 
 nano /etc/php/8.0/fpm/php.ini
-# CTRL+W
-# short_open_tag
-# CTRL+W, ENTER
-# Comment short_open_tag, put ; before it.
-# CTRL+O, ENTER, CTRL+X
+ CTRL+W
+ short_open_tag
+ CTRL+W, ENTER
+ Comment short_open_tag, put ; before it.
+ CTRL+O, ENTER, CTRL+X
 systemctl reload php8.0-fpm.service
 
 rm -r /etc/nginx/sites-enabled/default
