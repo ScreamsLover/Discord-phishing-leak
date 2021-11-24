@@ -1,6 +1,6 @@
 # Discord-phishing-leak
-Discord Phishing Link leaked by Certex 
-#**FOR EDUCATIONAL PURPOSES ONLY**
+Discord Phishing Link leaked by Certex
+#**FOR EDUCATIONAL PURPOSES ONLY** 						
 
 Down below you have a small tutorial 
 # PREPARING VDS #
